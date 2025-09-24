@@ -16,13 +16,12 @@ DKIM-Signature:
 Like a digital signature from the sender’s domain.
 If dkim=pass, then message is genuine. If fail, then it may be fake.
 
----------------------------------------------------------------------------------------------------------------------------------
 Think, You are the owner of this domain
 domain : xyz.com
 Email : iamadmin@xyz.com
 SPF : Let i say that this sender email is authorized by me means SPF:true and if i say i am not owner of this and this is not authorized by me means SPF:false
 DKIM : I am owner of xyz . I say dkim=pass means this email is genuine.If dkim=fail means not authorized by me.
----------------------------------------------------------------------------------------------------------------------------------
+
 
 DMARC: = SPF+DKIM
 The domain owner’s policy: what to do if SPF/DKIM fails.
@@ -62,4 +61,4 @@ https://www.whois.com/whois/
 
 https://checkphish.bolster.ai/
 
-[![GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFkOWk5ZnM5dXdpdHJ2bGU4cThvbXkzYWViZ3FvaG5lczU1cDd5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/trYVHReHjPyvzaNu4b/giphy.gif)](https://youtu.be/FsE8RJ5IS-M)
+[![GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFkOWk5ZnM5dXdpdHJ2bGU4cThvbXkzYWViZ3FvaG5lczU1cDd5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/trYVHReHjPyvzaNu4b/giphy.gif)](https://youtu.be/AhtYlafk2rY)
